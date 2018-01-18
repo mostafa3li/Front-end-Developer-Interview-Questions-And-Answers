@@ -2,7 +2,18 @@
 
 #### What is the difference between classes and ID's in CSS?
 
-*Not answered yet*
+-Classes : a) Targets an element based on its class attribute.
+           b) It can be reused throughout a page.
+           c) Multible elements can share the same class and element can also have multiple classes applied to it.
+           d) applying styles by typing --- .test { css properties }
+           e) more prefered to use than ID in CSS styling.
+
+-IDs : a) Targets an element based on its ID  attribute.
+       b) a page can only have one element with the same ID name because it's unique.
+       c) applying styles by typing --- #test { css properties }
+       
+note that: We can apply both a Class and ID to an element. but keep in mind that IDs carry more specificity than classes do.
+    so if an element has an ID and a Class applied, the styles defined in th ID selector will always carry more weight than the styles defined in the class selector, so make sure you don't share properties between Classes and IDs.
 
 #### What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
 
